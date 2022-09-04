@@ -1,0 +1,361 @@
+卷 Data 的文件夹 PATH 列表
+卷序列号为 A694-DF88
+D:.
+│  FreeRTOS.txt
+│  generated directory.bat
+│  README.md
+│  
+├─.idea
+│  │  .gitignore
+│  │  .name
+│  │  misc.xml
+│  │  modules.xml
+│  │  SCARP.iml
+│  │  workspace.xml
+│  │  
+│  └─inspectionProfiles
+│          profiles_settings.xml
+│          Project_Default.xml
+│          
+├─docs
+│      pipeline.svg
+│      
+├─Exp1_Benchmark
+│  │  README.md
+│  │  S01_Data_Preprocessing.ipynb
+│  │  S02_Run_SCARP.ipynb
+│  │  
+│  ├─.ipynb_checkpoints
+│  │      S01_Data_Preprocessing-checkpoint.ipynb
+│  │      S02_Run_SCARP-checkpoint.ipynb
+│  │      
+│  ├─figures
+│  │      tsne_blood2K_labeled.svg
+│  │      tsne_Breast_Tumor_labeled.svg
+│  │      tsne_Forebrain_labeled.svg
+│  │      tsne_GM12878vsHEK_labeled.svg
+│  │      tsne_GM12878vsHL_labeled.svg
+│  │      tsne_InSilico_labeled.svg
+│  │      tsne_Leukemia_labeled.svg
+│  │      tsne_Sox10KD_labeled.svg
+│  │      tsne_Splenocyte_labeled.svg
+│  │      umap_blood2K_labeled.svg
+│  │      umap_blood2K_louvain.svg
+│  │      umap_Breast_Tumor_labeled.svg
+│  │      umap_Breast_Tumor_louvain.svg
+│  │      umap_Forebrain_labeled.svg
+│  │      umap_Forebrain_louvain.svg
+│  │      umap_GM12878vsHEK_labeled.svg
+│  │      umap_GM12878vsHEK_louvain.svg
+│  │      umap_GM12878vsHL_labeled.svg
+│  │      umap_GM12878vsHL_louvain.svg
+│  │      umap_InSilico_labeled.svg
+│  │      umap_InSilico_louvain.svg
+│  │      umap_Leukemia_labeled.svg
+│  │      umap_Leukemia_louvain.svg
+│  │      umap_Sox10KD_labeled.svg
+│  │      umap_Sox10KD_louvain.svg
+│  │      umap_Splenocyte_labeled.svg
+│  │      umap_Splenocyte_louvain.svg
+│  │      
+│  ├─Processed data
+│  │      blood2K.h5ad
+│  │      Breast_Tumor.h5ad
+│  │      Forebrain.h5ad
+│  │      GM12878vsHEK.h5ad
+│  │      GM12878vsHL.h5ad
+│  │      InSilico.h5ad
+│  │      Leukemia.h5ad
+│  │      Sox10KD.h5ad
+│  │      Splenocyte.h5ad
+│  │      
+│  ├─Raw data
+│  │  │  Breast_Tumor.h5ad
+│  │  │  Forebrain.h5ad
+│  │  │  GM12878vsHEK.h5ad
+│  │  │  GM12878vsHL.h5ad
+│  │  │  InSilico.h5ad
+│  │  │  Leukemia.h5ad
+│  │  │  Splenocyte.h5ad
+│  │  │  
+│  │  ├─blood2K
+│  │  │      Filter_Cells.txt
+│  │  │      Filter_df.txt
+│  │  │      Filter_Peaks.txt
+│  │  │      metadata.txt
+│  │  │      
+│  │  └─SOX10
+│  │          GSE114557_MM057_MM087_Sox10KD_GoodCells_mergedPeaks_correctformat.counts.txt
+│  │          GSE114557_MM057_MM087_Sox10KD_GoodCells_mergedPeaks_correctformat.counts.txt.gz
+│  │          
+│  └─Results
+│          Kept component of blood2K.svg
+│          Kept component of Forebrain.svg
+│          Kept component of GM12878vsHEK.svg
+│          Kept component of GM12878vsHL.svg
+│          Kept component of InSilico.svg
+│          Kept component of Leukemia.svg
+│          Kept component of Sox10KD.svg
+│          Kept component of Splenocyte.svg
+│          Louvain confusion mat of blood2K.svg
+│          Louvain confusion mat of Breast_Tumor.svg
+│          Louvain confusion mat of Forebrain.svg
+│          Louvain confusion mat of GM12878vsHEK.svg
+│          Louvain confusion mat of GM12878vsHL.svg
+│          Louvain confusion mat of InSilico.svg
+│          Louvain confusion mat of Leukemia.svg
+│          Louvain confusion mat of Sox10KD.svg
+│          Louvain confusion mat of Splenocyte.svg
+│          
+├─Exp2_Robustness
+│  │  S01_Filter_peaks.ipynb
+│  │  S02_Run_SCARP.ipynb
+│  │  
+│  ├─.ipynb_checkpoints
+│  │      S01_Filter_peaks-checkpoint.ipynb
+│  │      S02_Run_SCARP-checkpoint.ipynb
+│  │      S02_Run_SCARP_to _test_robustness-checkpoint.ipynb
+│  │      
+│  ├─Processed data
+│  │      blood2K_filter30.h5ad
+│  │      blood2K_filter40.h5ad
+│  │      blood2K_filter50.h5ad
+│  │      blood2K_filter60.h5ad
+│  │      blood2K_filter70.h5ad
+│  │      blood2k_filter_var0.5.h5ad
+│  │      blood2k_filter_var0.6.h5ad
+│  │      blood2k_filter_var0.7.h5ad
+│  │      blood2k_filter_var0.8.h5ad
+│  │      blood2k_filter_var0.9.h5ad
+│  │      Sox10KD_filter10.h5ad
+│  │      Sox10KD_filter20.h5ad
+│  │      Sox10KD_filter30.h5ad
+│  │      Sox10KD_filter40.h5ad
+│  │      Sox10KD_filter50.h5ad
+│  │      Sox10KD_filter_var0.5.h5ad
+│  │      Sox10KD_filter_var0.6.h5ad
+│  │      Sox10KD_filter_var0.7.h5ad
+│  │      Sox10KD_filter_var0.8.h5ad
+│  │      Sox10KD_filter_var0.9.h5ad
+│  │      
+│  └─Results
+│          blood2k_louvain_ARI_score.txt
+│          blood2k_louvain_NMI_score.txt
+│          blood2k_peaksnum.svg
+│          blood2k_Score.svg
+│          blood2k_time.svg
+│          Sox10KD_louvain_ARI_score.txt
+│          Sox10KD_louvain_NMI_score.txt
+│          Sox10KD_peaksnum.svg
+│          Sox10KD_Score.svg
+│          Sox10KD_time.svg
+│          
+├─Exp3_SNARE_seq
+│  │  README.md
+│  │  S01_Signac_vignette.R
+│  │  S02_Run_SCARP.ipynb
+│  │  S03_Cells_clustering.R
+│  │  SNARE.Rproj
+│  │  
+│  ├─Processed data
+│  ├─Raw data
+│  │  ├─GSE126074_AdBrainCortex_atac
+│  │  │      barcodes.tsv.gz
+│  │  │      features.tsv.gz
+│  │  │      fragments.sort.bed.gz
+│  │  │      fragments.sort.bed.gz.tbi
+│  │  │      GSE126074_AdBrainCortex_SNAREseq_chromatin.barcodes.tsv.gz
+│  │  │      GSE126074_AdBrainCortex_SNAREseq_chromatin.counts.mtx.gz
+│  │  │      GSE126074_AdBrainCortex_SNAREseq_chromatin.peaks.tsv.gz
+│  │  │      matrix.mtx.gz
+│  │  │      
+│  │  └─GSE126074_AdBrainCortex_rna
+│  │          allen_brain.rds
+│  │          barcodes.tsv.gz
+│  │          features.tsv.gz
+│  │          GSE126074_AdBrainCortex_SNAREseq_cDNA.barcodes.tsv.gz
+│  │          GSE126074_AdBrainCortex_SNAREseq_cDNA.counts.mtx.gz
+│  │          GSE126074_AdBrainCortex_SNAREseq_cDNA.genes.tsv.gz
+│  │          matrix.mtx.gz
+│  │          
+│  └─Results
+│          Cells_filtered.csv
+│          cisTopic_silhouette.svg
+│          cisTOPIC_uamp.svg
+│          Kept component of AdBrainCortex.svg
+│          RNA_silhouette.svg
+│          RNA_umap.svg
+│          scAND_silhouette.svg
+│          scAND_umap.svg
+│          SCARP_ATAC_Cells_df.txt
+│          SCARP_silhouette.svg
+│          SCARP_umap.svg
+│          SNARE_Celltype.csv
+│          
+├─Exp4_SOX10_Knockdown
+│  │  Exp4_SOX10_Knockdown.Rproj
+│  │  README.md
+│  │  S01_Run_SCARP.ipynb
+│  │  S02_Peak annotation.R
+│  │  S03_Computing_coaccessible_peaks.ipynb
+│  │  S04_Gene_Enrichment.R
+│  │  S05_Survival_analysis.R
+│  │  
+│  ├─.ipynb_checkpoints
+│  │      S01_Data_Preprocessing-checkpoint.ipynb
+│  │      S01_Run_SCARP-checkpoint.ipynb
+│  │      S02_Computing_coaccessible_peaks-checkpoint.ipynb
+│  │      S02_Run_SCARP-checkpoint.ipynb
+│  │      S03_Computing_coaccessible_peaks-checkpoint.ipynb
+│  │      
+│  ├─figures
+│  │      Distribution of ATAC-seq loci relative to TSS (only promoters).svg
+│  │      Distribution of ATAC-seq loci relative to TSS.svg
+│  │      dotplot_Co-accessible loci of SOX10 by cisTOPIC.svg
+│  │      dotplot_Co-accessible loci of SOX10 by original.svg
+│  │      dotplot_Co-accessible loci of SOX10 by scAND.svg
+│  │      dotplot_Co-accessible loci of SOX10 by SCARP.svg
+│  │      pieplot(promoter).svg
+│  │      pieplot.svg
+│  │      upsetplot(promoter).svg
+│  │      upsetplot.svg
+│  │      
+│  ├─Processed data
+│  │      annotated_genes_1000bp.csv
+│  │      annotated_genes_1000bp_alltype.csv
+│  │      Sox10KD_peaks.bed
+│  │      
+│  ├─Results
+│  │  │  cisTopic_diff_access_sites_top50.csv
+│  │  │  KEGG_cisTopic.svg
+│  │  │  KEGG_cnetplot_cisTopic.svg
+│  │  │  KEGG_cnetplot_original.svg
+│  │  │  KEGG_cnetplot_scAND.svg
+│  │  │  KEGG_cnetplot_SCARP.svg
+│  │  │  KEGG_original.svg
+│  │  │  KEGG_scAND.svg
+│  │  │  KEGG_SCARP.svg
+│  │  │  Kept component of Sox10KD.svg
+│  │  │  original_diff_access_sites_top50.csv
+│  │  │  SCAND_diff_access_sites_top50.csv
+│  │  │  SCARP_diff_access_sites_top50.csv
+│  │  │  SOX10_SCARP_Cells_feature.csv
+│  │  │  SOX10_SCARP_Peaks_feature.csv
+│  │  │  
+│  │  └─cytoscape
+│  │          cisTOPIC default edge.csv
+│  │          cisTOPIC default node.csv
+│  │          cisTOPIC.cys
+│  │          cisTOPIC.pdf
+│  │          cisTopic_diff_access_sites_top50.csv
+│  │          original default edge.csv
+│  │          original default node.csv
+│  │          original.cys
+│  │          original.pdf
+│  │          original_diff_access_sites_top50.csv
+│  │          scand default edge.csv
+│  │          scand default node.csv
+│  │          scAND.cys
+│  │          scAND.pdf
+│  │          SCAND_diff_access_sites_top50.csv
+│  │          SCARP default edge.csv
+│  │          scarp default node.csv
+│  │          SCARP.cys
+│  │          SCARP.pdf
+│  │          SCARP_diff_access_sites_top50.csv
+│  │          
+│  ├─Survival result
+│  │      AKAP13.svg
+│  │      COQ10B.svg
+│  │      CTBP2.svg
+│  │      FAM227B.svg
+│  │      FBXO38.svg
+│  │      MITF.svg
+│  │      P4HTM.svg
+│  │      SLC14A2.svg
+│  │      STK17B.svg
+│  │      SYT11.svg
+│  │      TRIM69.svg
+│  │      XPNPEP3.svg
+│  │      ZC3H6.svg
+│  │      ZCCHC24.svg
+│  │      
+│  └─TCGA
+│          survival_SKCM_survival.txt
+│          TCGA-SKCM.htseq_fpkm.tsv
+│          TCGA-SKCM.htseq_fpkm.tsv.gz
+│          
+├─Exp5_10X_Multiome
+│  │  help_func.py
+│  │  README.md
+│  │  S01_Data_Preprocessing.ipynb
+│  │  S02_Run_SCARP_CD4naive.ipynb
+│  │  S03_PCHIC_Enhancer_CD4naive.ipynb
+│  │  S04_Chip_Seq.ipynb
+│  │  S05_Differential_Analysis.ipynb
+│  │  
+│  ├─.ipynb_checkpoints
+│  │      Data preprocessing-checkpoint.ipynb
+│  │      Differential analysis-checkpoint.ipynb
+│  │      Run SCARP-checkpoint.ipynb
+│  │      S01_Data_Preprocessing-checkpoint.ipynb
+│  │      S02_Run_SCARP-checkpoint.ipynb
+│  │      S03_PCHIC-checkpoint.ipynb
+│  │      S04_Chip_Seq-checkpoint.ipynb
+│  │      S05_Differential_Analysis-checkpoint.ipynb
+│  │      
+│  ├─figures
+│  │      stacked_violin__ATAC_CD14_Mono_marker_peaks.svg
+│  │      stacked_violin__RNA_CD14Mono_marker_genes.svg
+│  │      umap10X_pbmc_ATAC_celltype_filteredlabel.svg
+│  │      umap_CD14_Mono_cells.svg
+│  │      violin_ATAC_CD14_Mono_violin_group0.svg
+│  │      violin_ATAC_CD14_Mono_violin_group1.svg
+│  │      violin_RNA_CD14_Mono_violin_group0.svg
+│  │      violin_RNA_CD14_Mono_violin_group1.svg
+│  │      
+│  ├─Processed data
+│  │      10X_pbmc_ATAC.h5ad
+│  │      10X_pbmc_ATAC_celltype_filtered.h5ad
+│  │      10X_pbmc_ATAC_celltype_filtered_CD4_Naive.h5ad
+│  │      10X_pbmc_ATAC_celltype_filtered_CD8_Naive.h5ad
+│  │      10X_pbmc_RNA.h5ad
+│  │      
+│  ├─Raw data
+│  │  │  ActivePromoterEnhancerLinks.tsv
+│  │  │  pbmc_granulocyte_sorted_10k_atac_peak_annotation.tsv
+│  │  │  pbmc_granulocyte_sorted_10k_filtered_feature_bc_matrix.h5
+│  │  │  PCHiC_peak_matrix_cutoff5.tsv
+│  │  │  wnn_meta_data.csv
+│  │  │  
+│  │  └─Human_hg19
+│  │          Digest_Human_HindIII.rmap
+│  │          Digest_Human_HindIII_baits_e75_ID.baitmap
+│  │          Human_HindIII_NBaitsPerBin.nbpb
+│  │          Human_HindIII_NperBin.npb
+│  │          Human_HindIII_proxOE.poe
+│  │          
+│  ├─Results
+│  │      10X_pbmc_ATAC_celltype_filtered_SCARP_Cells_feature.csv
+│  │      10X_pbmc_ATAC_celltype_filtered_SCARP_Cells_feature_CD4_Naive.csv
+│  │      10X_pbmc_ATAC_celltype_filtered_SCARP_Cells_feature_CD8_Naive.csv
+│  │      10X_pbmc_ATAC_celltype_filtered_SCARP_Peaks_feature.csv
+│  │      10X_pbmc_ATAC_celltype_filtered_SCARP_Peaks_feature_CD4_Naive.csv
+│  │      10X_pbmc_ATAC_celltype_filtered_SCARP_Peaks_feature_CD8_Naive.csv
+│  │      10X_pbmc_ATAC_SCARP_Cells_feature.csv
+│  │      10X_pbmc_ATAC_SCARP_Peaks_feature.csv
+│  │      CD8 Naive.svg
+│  │      
+│  └─__pycache__
+│          help_func.cpython-38.pyc
+│          
+└─Scarp
+    │  data_preprocessing.py
+    │  downstream.py
+    │  SCARP_help_func.py
+    │  
+    └─__pycache__
+            data_preprocessing.cpython-38.pyc
+            downstream.cpython-38.pyc
+            SCARP_help_func.cpython-38.pyc
+            
